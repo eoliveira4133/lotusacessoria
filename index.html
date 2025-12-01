@@ -91,9 +91,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 				<div class="elementor-element elementor-element-4a8e2d18 elementor-widget elementor-widget-image" data-id="4a8e2d18" data-element_type="widget" data-widget_type="image.default">
 				<picture>
     <source 
-        srcset="/logo-juristec.png 500w, /logo-juristec.png 300w" 
-        sizes="(max-width: 500px) 100vw, 500px" 
-        type="image/png">
+        <picture>
+    <img 
+        fetchpriority="high" 
+        decoding="async" 
+        width="500" 
+        src="logo-juristec.png" 
+        alt="Logo Juristec"
+        style="max-width: 500px; height: auto;"
+    >
+</picture>
+
     
     <img 
         fetchpriority="high" 
